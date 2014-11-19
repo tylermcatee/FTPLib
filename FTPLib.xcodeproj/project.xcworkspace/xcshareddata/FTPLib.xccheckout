@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D6B232F5-0B39-47B2-A571-22534C62C8C5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FTPLib</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B65DCDA69A62A47480AF267B72532F4AD0458682</key>
+		<string>https://github.com/tylermcatee/FTPLib.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FTPLib.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B65DCDA69A62A47480AF267B72532F4AD0458682</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tylermcatee/FTPLib.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B65DCDA69A62A47480AF267B72532F4AD0458682</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B65DCDA69A62A47480AF267B72532F4AD0458682</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FTPLib</string>
+		</dict>
+	</array>
+</dict>
+</plist>

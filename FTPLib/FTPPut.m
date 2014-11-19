@@ -27,6 +27,13 @@ enum {
     uint8_t _buffer[kSendBufferSize];
 }
 
+#pragma mark - Initialization
+
++(instancetype)putterWithTargetIP:(FTPTargetIP *)targetIP {
+    FTPPut *putter = [[FTPPut alloc] initWithTargetIP:targetIP];
+    return putter;
+}
+
 #pragma mark - Core transfer code
 // This is the code that actually does the networking.
 

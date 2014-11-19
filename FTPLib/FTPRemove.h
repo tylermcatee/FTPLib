@@ -10,6 +10,8 @@
 
 @interface FTPRemove : FTPObject
 
++(instancetype)removerWithTargetIP:(FTPTargetIP *)targetIP;
+
 -(BOOL)removeFileAtPath:(NSString *)pathName;
 
 @end

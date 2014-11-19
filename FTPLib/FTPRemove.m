@@ -17,6 +17,15 @@
 
 @implementation FTPRemove
 
+#pragma mark - Initialization
+
++(instancetype)removerWithTargetIP:(FTPTargetIP *)targetIP {
+    FTPRemove *remover = [[FTPRemove alloc] initWithTargetIP:targetIP];
+    return remover;
+}
+
+#pragma mark - Removing code
+
 -(CFURLRef) urlRef {
     return (__bridge CFURLRef) self.url;
 }

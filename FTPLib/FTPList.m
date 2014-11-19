@@ -21,6 +21,13 @@
 
 @implementation FTPList
 
+#pragma mark - Initialization
+
++(instancetype)listerWithTargetIP:(FTPTargetIP *)targetIP {
+    FTPList *lister = [[FTPList alloc] initWithTargetIP:targetIP];
+    return lister;
+}
+
 #pragma mark * Status management
 
 - (void)updateStatus:(NSString *)statusString

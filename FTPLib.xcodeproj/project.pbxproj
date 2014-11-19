@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC0A85C1A1C38FE00BE8198 /* FTPLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A85B1A1C38FE00BE8198 /* FTPLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FC0A8621A1C38FE00BE8198 /* FTPLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC0A8561A1C38FE00BE8198 /* FTPLib.framework */; };
+		2FC0A8691A1C38FE00BE8198 /* FTPLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8681A1C38FE00BE8198 /* FTPLibTests.m */; };
+		2FC0A8801A1C392B00BE8198 /* FTPGet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8721A1C392B00BE8198 /* FTPGet.h */; };
+		2FC0A8811A1C392B00BE8198 /* FTPGet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8731A1C392B00BE8198 /* FTPGet.m */; };
+		2FC0A8821A1C392B00BE8198 /* FTPList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8741A1C392B00BE8198 /* FTPList.h */; };
+		2FC0A8831A1C392B00BE8198 /* FTPList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8751A1C392B00BE8198 /* FTPList.m */; };
+		2FC0A8841A1C392B00BE8198 /* FTPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8761A1C392B00BE8198 /* FTPObject.h */; };
+		2FC0A8851A1C392B00BE8198 /* FTPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8771A1C392B00BE8198 /* FTPObject.m */; };
+		2FC0A8861A1C392B00BE8198 /* FTPPut.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8781A1C392B00BE8198 /* FTPPut.h */; };
+		2FC0A8871A1C392B00BE8198 /* FTPPut.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8791A1C392B00BE8198 /* FTPPut.m */; };
+		2FC0A8881A1C392B00BE8198 /* FTPRemove.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87A1A1C392B00BE8198 /* FTPRemove.h */; };
+		2FC0A8891A1C392B00BE8198 /* FTPRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A87B1A1C392B00BE8198 /* FTPRemove.m */; };
+		2FC0A88A1A1C392B00BE8198 /* FTPTargetIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87C1A1C392B00BE8198 /* FTPTargetIP.h */; };
+		2FC0A88B1A1C392B00BE8198 /* FTPTargetIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A87D1A1C392B00BE8198 /* FTPTargetIP.m */; };
+		2FC0A88C1A1C392B00BE8198 /* FTPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87E1A1C392B00BE8198 /* FTPUtils.h */; };
+		2FC0A88D1A1C392B00BE8198 /* FTPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A87F1A1C392B00BE8198 /* FTPUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC0A8631A1C38FE00BE8198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC0A84D1A1C38FE00BE8198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC0A8551A1C38FE00BE8198;
+			remoteInfo = FTPLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FC0A8561A1C38FE00BE8198 /* FTPLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTPLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC0A85A1A1C38FE00BE8198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC0A85B1A1C38FE00BE8198 /* FTPLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPLib.h; sourceTree = "<group>"; };
+		2FC0A8611A1C38FE00BE8198 /* FTPLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTPLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC0A8671A1C38FE00BE8198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC0A8681A1C38FE00BE8198 /* FTPLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPLibTests.m; sourceTree = "<group>"; };
+		2FC0A8721A1C392B00BE8198 /* FTPGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPGet.h; sourceTree = "<group>"; };
+		2FC0A8731A1C392B00BE8198 /* FTPGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPGet.m; sourceTree = "<group>"; };
+		2FC0A8741A1C392B00BE8198 /* FTPList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPList.h; sourceTree = "<group>"; };
+		2FC0A8751A1C392B00BE8198 /* FTPList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPList.m; sourceTree = "<group>"; };
+		2FC0A8761A1C392B00BE8198 /* FTPObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPObject.h; sourceTree = "<group>"; };
+		2FC0A8771A1C392B00BE8198 /* FTPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPObject.m; sourceTree = "<group>"; };
+		2FC0A8781A1C392B00BE8198 /* FTPPut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPPut.h; sourceTree = "<group>"; };
+		2FC0A8791A1C392B00BE8198 /* FTPPut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPPut.m; sourceTree = "<group>"; };
+		2FC0A87A1A1C392B00BE8198 /* FTPRemove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPRemove.h; sourceTree = "<group>"; };
+		2FC0A87B1A1C392B00BE8198 /* FTPRemove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPRemove.m; sourceTree = "<group>"; };
+		2FC0A87C1A1C392B00BE8198 /* FTPTargetIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPTargetIP.h; sourceTree = "<group>"; };
+		2FC0A87D1A1C392B00BE8198 /* FTPTargetIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPTargetIP.m; sourceTree = "<group>"; };
+		2FC0A87E1A1C392B00BE8198 /* FTPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPUtils.h; sourceTree = "<group>"; };
+		2FC0A87F1A1C392B00BE8198 /* FTPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC0A8521A1C38FE00BE8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC0A85E1A1C38FE00BE8198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0A8621A1C38FE00BE8198 /* FTPLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC0A84C1A1C38FE00BE8198 = {
+			isa = PBXGroup;
+			children = (
+				2FC0A8581A1C38FE00BE8198 /* FTPLib */,
+				2FC0A8651A1C38FE00BE8198 /* FTPLibTests */,
+				2FC0A8571A1C38FE00BE8198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC0A8571A1C38FE00BE8198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0A8561A1C38FE00BE8198 /* FTPLib.framework */,
+				2FC0A8611A1C38FE00BE8198 /* FTPLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC0A8581A1C38FE00BE8198 /* FTPLib */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0A85B1A1C38FE00BE8198 /* FTPLib.h */,
+				2FC0A8721A1C392B00BE8198 /* FTPGet.h */,
+				2FC0A8731A1C392B00BE8198 /* FTPGet.m */,
+				2FC0A8741A1C392B00BE8198 /* FTPList.h */,
+				2FC0A8751A1C392B00BE8198 /* FTPList.m */,
+				2FC0A8761A1C392B00BE8198 /* FTPObject.h */,
+				2FC0A8771A1C392B00BE8198 /* FTPObject.m */,
+				2FC0A8781A1C392B00BE8198 /* FTPPut.h */,
+				2FC0A8791A1C392B00BE8198 /* FTPPut.m */,
+				2FC0A87A1A1C392B00BE8198 /* FTPRemove.h */,
+				2FC0A87B1A1C392B00BE8198 /* FTPRemove.m */,
+				2FC0A87C1A1C392B00BE8198 /* FTPTargetIP.h */,
+				2FC0A87D1A1C392B00BE8198 /* FTPTargetIP.m */,
+				2FC0A87E1A1C392B00BE8198 /* FTPUtils.h */,
+				2FC0A87F1A1C392B00BE8198 /* FTPUtils.m */,
+				2FC0A8591A1C38FE00BE8198 /* Supporting Files */,
+			);
+			path = FTPLib;
+			sourceTree = "<group>";
+		};
+		2FC0A8591A1C38FE00BE8198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0A85A1A1C38FE00BE8198 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC0A8651A1C38FE00BE8198 /* FTPLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0A8681A1C38FE00BE8198 /* FTPLibTests.m */,
+				2FC0A8661A1C38FE00BE8198 /* Supporting Files */,
+			);
+			path = FTPLibTests;
+			sourceTree = "<group>";
+		};
+		2FC0A8661A1C38FE00BE8198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0A8671A1C38FE00BE8198 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FC0A8531A1C38FE00BE8198 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0A8801A1C392B00BE8198 /* FTPGet.h in Headers */,
+				2FC0A88A1A1C392B00BE8198 /* FTPTargetIP.h in Headers */,
+				2FC0A8861A1C392B00BE8198 /* FTPPut.h in Headers */,
+				2FC0A88C1A1C392B00BE8198 /* FTPUtils.h in Headers */,
+				2FC0A8821A1C392B00BE8198 /* FTPList.h in Headers */,
+				2FC0A8841A1C392B00BE8198 /* FTPObject.h in Headers */,
+				2FC0A85C1A1C38FE00BE8198 /* FTPLib.h in Headers */,
+				2FC0A8881A1C392B00BE8198 /* FTPRemove.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FC0A8551A1C38FE00BE8198 /* FTPLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC0A86C1A1C38FE00BE8198 /* Build configuration list for PBXNativeTarget "FTPLib" */;
+			buildPhases = (
+				2FC0A8511A1C38FE00BE8198 /* Sources */,
+				2FC0A8521A1C38FE00BE8198 /* Frameworks */,
+				2FC0A8531A1C38FE00BE8198 /* Headers */,
+				2FC0A8541A1C38FE00BE8198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTPLib;
+			productName = FTPLib;
+			productReference = 2FC0A8561A1C38FE00BE8198 /* FTPLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2FC0A8601A1C38FE00BE8198 /* FTPLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC0A86F1A1C38FE00BE8198 /* Build configuration list for PBXNativeTarget "FTPLibTests" */;
+			buildPhases = (
+				2FC0A85D1A1C38FE00BE8198 /* Sources */,
+				2FC0A85E1A1C38FE00BE8198 /* Frameworks */,
+				2FC0A85F1A1C38FE00BE8198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC0A8641A1C38FE00BE8198 /* PBXTargetDependency */,
+			);
+			name = FTPLibTests;
+			productName = FTPLibTests;
+			productReference = 2FC0A8611A1C38FE00BE8198 /* FTPLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC0A84D1A1C38FE00BE8198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					2FC0A8551A1C38FE00BE8198 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2FC0A8601A1C38FE00BE8198 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 2FC0A8501A1C38FE00BE8198 /* Build configuration list for PBXProject "FTPLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2FC0A84C1A1C38FE00BE8198;
+			productRefGroup = 2FC0A8571A1C38FE00BE8198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC0A8551A1C38FE00BE8198 /* FTPLib */,
+				2FC0A8601A1C38FE00BE8198 /* FTPLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC0A8541A1C38FE00BE8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC0A85F1A1C38FE00BE8198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC0A8511A1C38FE00BE8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0A8851A1C392B00BE8198 /* FTPObject.m in Sources */,
+				2FC0A8831A1C392B00BE8198 /* FTPList.m in Sources */,
+				2FC0A88D1A1C392B00BE8198 /* FTPUtils.m in Sources */,
+				2FC0A88B1A1C392B00BE8198 /* FTPTargetIP.m in Sources */,
+				2FC0A8891A1C392B00BE8198 /* FTPRemove.m in Sources */,
+				2FC0A8871A1C392B00BE8198 /* FTPPut.m in Sources */,
+				2FC0A8811A1C392B00BE8198 /* FTPGet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC0A85D1A1C38FE00BE8198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC0A8691A1C38FE00BE8198 /* FTPLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC0A8641A1C38FE00BE8198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC0A8551A1C38FE00BE8198 /* FTPLib */;
+			targetProxy = 2FC0A8631A1C38FE00BE8198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FC0A86A1A1C38FE00BE8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FC0A86B1A1C38FE00BE8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FC0A86D1A1C38FE00BE8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FTPLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2FC0A86E1A1C38FE00BE8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FTPLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2FC0A8701A1C38FE00BE8198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FTPLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC0A8711A1C38FE00BE8198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FTPLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC0A8501A1C38FE00BE8198 /* Build configuration list for PBXProject "FTPLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC0A86A1A1C38FE00BE8198 /* Debug */,
+				2FC0A86B1A1C38FE00BE8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC0A86C1A1C38FE00BE8198 /* Build configuration list for PBXNativeTarget "FTPLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC0A86D1A1C38FE00BE8198 /* Debug */,
+				2FC0A86E1A1C38FE00BE8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC0A86F1A1C38FE00BE8198 /* Build configuration list for PBXNativeTarget "FTPLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC0A8701A1C38FE00BE8198 /* Debug */,
+				2FC0A8711A1C38FE00BE8198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC0A84D1A1C38FE00BE8198 /* Project object */;
+}

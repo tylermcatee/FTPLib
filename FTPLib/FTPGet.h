@@ -10,6 +10,8 @@
 
 @interface FTPGet : FTPObject <NSStreamDelegate>
 
++(instancetype)getterWithTargetIP:(FTPTargetIP *)targetIP;
+
 -(NSString *)startReceiveFile:(NSString *)fileName;
 
 @end

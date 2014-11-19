@@ -10,6 +10,8 @@
 
 @interface FTPPut : FTPObject <NSStreamDelegate>
 
++(instancetype)putterWithTargetIP:(FTPTargetIP *)targetIP;
+
 -(BOOL)startUploadingFile:(NSString *)filePath;
 
 @end

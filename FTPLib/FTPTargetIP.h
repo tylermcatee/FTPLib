@@ -13,6 +13,7 @@
 @property (strong, nonatomic) NSString *userName;
 @property (strong, nonatomic) NSString *password;
 
++(instancetype)ipWithAddress:(NSString *)ipAddress andUserName:(NSString *)username andPassword:(NSString *)password;
 -(id)initWithIP:(NSString *)ipAddress andUsername:(NSString *)username andPassword:(NSString *)password;
 
 -(NSString *)formattedStringWithPathPostfix:(NSString *)pathPostfix;

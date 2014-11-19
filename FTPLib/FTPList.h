@@ -11,6 +11,8 @@
 
 @interface FTPList : FTPObject <NSStreamDelegate>
 
++(instancetype)listerWithTargetIP:(FTPTargetIP *)targetIP;
+
 -(NSMutableArray *)receiveContentsOfPath:(NSString *)pathName;
 
 @end

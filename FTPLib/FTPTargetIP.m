@@ -28,6 +28,11 @@
 
 # pragma mark - Public Methods
 
++(instancetype)ipWithAddress:(NSString *)ipAddress andUserName:(NSString *)username andPassword:(NSString *)password {
+    FTPTargetIP *targetIP = [[FTPTargetIP alloc] initWithIP:ipAddress andUsername:username andPassword:password];
+    return targetIP;
+}
+
 -(id)initWithIP:(NSString *)ipAddress andUsername:(NSString *)username andPassword:(NSString *)password {
     self = [super init];
     if (self) {

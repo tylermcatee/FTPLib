@@ -17,6 +17,13 @@
 
 @implementation FTPGet
 
+#pragma mark - Initialization
+
++(instancetype)getterWithTargetIP:(FTPTargetIP *)targetIP {
+    FTPGet *getter = [[FTPGet alloc] initWithTargetIP:targetIP];
+    return getter;
+}
+
 #pragma mark - Core transfer code
 // This is the code that actually does the networking.
 
