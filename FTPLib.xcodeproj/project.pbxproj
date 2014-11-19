@@ -10,19 +10,19 @@
 		2FC0A85C1A1C38FE00BE8198 /* FTPLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A85B1A1C38FE00BE8198 /* FTPLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC0A8621A1C38FE00BE8198 /* FTPLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC0A8561A1C38FE00BE8198 /* FTPLib.framework */; };
 		2FC0A8691A1C38FE00BE8198 /* FTPLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8681A1C38FE00BE8198 /* FTPLibTests.m */; };
-		2FC0A8801A1C392B00BE8198 /* FTPGet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8721A1C392B00BE8198 /* FTPGet.h */; };
+		2FC0A8801A1C392B00BE8198 /* FTPGet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8721A1C392B00BE8198 /* FTPGet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC0A8811A1C392B00BE8198 /* FTPGet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8731A1C392B00BE8198 /* FTPGet.m */; };
-		2FC0A8821A1C392B00BE8198 /* FTPList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8741A1C392B00BE8198 /* FTPList.h */; };
+		2FC0A8821A1C392B00BE8198 /* FTPList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8741A1C392B00BE8198 /* FTPList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC0A8831A1C392B00BE8198 /* FTPList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8751A1C392B00BE8198 /* FTPList.m */; };
-		2FC0A8841A1C392B00BE8198 /* FTPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8761A1C392B00BE8198 /* FTPObject.h */; };
+		2FC0A8841A1C392B00BE8198 /* FTPObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8761A1C392B00BE8198 /* FTPObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC0A8851A1C392B00BE8198 /* FTPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8771A1C392B00BE8198 /* FTPObject.m */; };
-		2FC0A8861A1C392B00BE8198 /* FTPPut.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8781A1C392B00BE8198 /* FTPPut.h */; };
+		2FC0A8861A1C392B00BE8198 /* FTPPut.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A8781A1C392B00BE8198 /* FTPPut.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC0A8871A1C392B00BE8198 /* FTPPut.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A8791A1C392B00BE8198 /* FTPPut.m */; };
-		2FC0A8881A1C392B00BE8198 /* FTPRemove.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87A1A1C392B00BE8198 /* FTPRemove.h */; };
+		2FC0A8881A1C392B00BE8198 /* FTPRemove.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87A1A1C392B00BE8198 /* FTPRemove.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC0A8891A1C392B00BE8198 /* FTPRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A87B1A1C392B00BE8198 /* FTPRemove.m */; };
-		2FC0A88A1A1C392B00BE8198 /* FTPTargetIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87C1A1C392B00BE8198 /* FTPTargetIP.h */; };
+		2FC0A88A1A1C392B00BE8198 /* FTPTargetIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87C1A1C392B00BE8198 /* FTPTargetIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC0A88B1A1C392B00BE8198 /* FTPTargetIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A87D1A1C392B00BE8198 /* FTPTargetIP.m */; };
-		2FC0A88C1A1C392B00BE8198 /* FTPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87E1A1C392B00BE8198 /* FTPUtils.h */; };
+		2FC0A88C1A1C392B00BE8198 /* FTPUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC0A87E1A1C392B00BE8198 /* FTPUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FC0A88D1A1C392B00BE8198 /* FTPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC0A87F1A1C392B00BE8198 /* FTPUtils.m */; };
 /* End PBXBuildFile section */
 

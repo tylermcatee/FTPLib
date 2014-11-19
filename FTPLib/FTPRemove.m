@@ -52,5 +52,6 @@
         [FTPUtils logStatus:@"Remove failed."];
         return NO;
     }
+    
 }
 @end
